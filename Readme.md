@@ -39,10 +39,10 @@ Note the AFINN entries are:
 
 - All lower case;
 - Can contain numbers (only case: `n00b`);
-- Can contain spaces (only case: `can't stand`);
+- Can contain spaces (cases: `can't stand`, `cashing in`, `cool stuff`, `does not work`, `dont like`, `fed up`, `green wash`, `green washing`, `messing up`, `no fun`, `not good`, `not working`, `right direction`, `screwed up`, `some kind`);
 - Can contain apostrophes (only case: `can't stand`);
 - Can contain diaeresis (only case: `naïve`);
-- Can contain dashes (`cover-up`, `made-up`, `once-in-a-lifetime`, `self-confident`, `self-deluded`, `short-sighted`, `short-sightedness`, `son-of-a-bitch`);
+- Can contain dashes (cases: `cover-up`, `made-up`, `once-in-a-lifetime`, `self-confident`, `self-deluded`, `short-sighted`, `short-sightedness`, `son-of-a-bitch`);
 
 ## License
 

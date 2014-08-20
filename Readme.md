@@ -27,6 +27,9 @@ afinn['cats'] = Infinity;
 afinn['cats']; // Infinity
 ```
 
+> Note! Be careful when accessing unknown properties on the AFINN object, words such as “constructor” or “toString” might occur.
+> It’s recommended to use a `hasOwnProperty` check beforehand.
+
 ## API
 
 **afinn-111** returns the AFINN word list as a javascript object.

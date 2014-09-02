@@ -1,15 +1,16 @@
 'use strict';
 
-var fs, afinn, data, word;
+var fs, textToJSON, data;
 
+textToJSON = require('plain-text-data-to-json');
 fs = require('fs');
-afinn = fs.readFileSync('data/AFINN-111.txt', 'utf8');
-data = {};
 
-afinn.split('\n').forEach(function (line) {
-    word = line.split('\t');
+data = textToJSON(fs.readFileSync('data/AFINN-111.txt', 'utf8'), {
+    'delimiter' : '\t'
+});
 
-    data[word[0]] = Number(word[1]);
+Object.keys(data).forEach(function (key) {
+    data[key] = Number(data[key]);
 });
 
 fs.writeFileSync('data/afinn-111.json', JSON.stringify(data));

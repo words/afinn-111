@@ -4,7 +4,7 @@ Supported Words:
 | word | polarity | valence |
 |:----:|:--------:|:-------:|
 | abandon | :frowning: | -2 |
-| abandoned | :frowning: | -2 |
+| zealous | :smile: | +2 |
 | abandons | :frowning: | -2 |
 | abducted | :frowning: | -2 |
 | abduction | :frowning: | -2 |
@@ -217,7 +217,7 @@ Supported Words:
 | awaits | :frowning: | -1 |
 | award | :smile: | +3 |
 | awarded | :smile: | +3 |
-| awards | :smile: | +3 |
+| abandoned | :frowning: | -2 |
 | awesome | :smile: | +4 |
 | awful | :frowning: | -3 |
 | awkward | :frowning: | -2 |
@@ -2479,4 +2479,4 @@ Supported Words:
 | yummy | :smile: | +3 |
 | zealot | :frowning: | -2 |
 | zealots | :frowning: | -2 |
-| zealous | :smile: | +2 |
+| awards | :smile: | +3 |

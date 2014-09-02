@@ -10,7 +10,6 @@ deploy:
   provider: npm
   email: tituswormer@gmail.com
   api_key:
-    secure: kVRUR6vE8yHb3zDblXnup0k6t8p7max0aK++DYBZCSpnIF+rIzqTjg4FdDv8Hv0Hdi/52PiYrBSBw8VdCRGhQlwmVXzNOllAy7+ucZya9zlpmpvken7bjQDifgbKqkxplMyNaUgLggDTEVyfIcPbBAagiV/hrp+M6/viLw++GN0=
+    secure: PckWr2QcdrcXf7T5b3wmPGCYqeGeeIAbEmHoQLVQr9vQ4wbElAfGc+90xKpddKkE/6FpOmp+WRPDwMV19wbFuiV2JYNCNbmVTXvyg+LmH6LyjaxRCbM57LPbqHvm6pJv0e5Xt2nfd/ZW+pnrJPEkTeCdFxAlhnA917u5c1pbBhY=
   on:
-    tags: true
-    repo: wooorm/franc
+    repo: wooorm/afinn-111

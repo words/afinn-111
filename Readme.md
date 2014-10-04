@@ -4,14 +4,19 @@ Easy access to [AFINN-111](http://www2.imm.dtu.dk/pubdb/views/publication_detail
 
 ## Installation
 
-NPM:
+npm:
 ```sh
 $ npm install afinn-111
 ```
 
-Component.js:
+Component:
 ```sh
 $ component install wooorm/afinn-111
+```
+
+Bower:
+```sh
+$ bower install afinn-111
 ```
 
 ## Usage

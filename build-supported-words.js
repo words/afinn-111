@@ -1,24 +1,53 @@
 'use strict';
 
-var fs = require('fs'),
-    words = require('./');
+/**
+ * Dependencies.
+ */
+
+var fs,
+    table,
+    words;
+
+fs = require('fs');
+table = require('markdown-table');
+words = require('./');
+
+/**
+ * Set up data.
+ */
+
+var data;
+
+data = [
+    ['Word', 'Polarity', 'Valence']
+];
+
+data = data.concat(
+    Object.keys(words).map(function (word) {
+        var valence;
+
+        valence = words[word];
+
+        return [
+            word,
+            valence > 0 ? ':smile:' : ':frowning:',
+            valence > 0 ? '+' + valence : valence
+        ];
+    })
+);
+
+/**
+ * Write support.
+ */
 
 fs.writeFileSync('Supported-words.md',
     'Supported Words:\n' +
     '=================\n' +
     '\n' +
-    '| word | polarity | valence |\n' +
-    '|:----:|:--------:|:-------:|\n' +
 
-    Object.keys(words).map(function (word) {
-        var valence = words[word];
-
-        return '| ' + [
-            word,
-            valence > 0 ? ':smile:' : ':frowning:',
-            valence > 0 ? '+' + valence : valence
-        ].join(' | ') + ' |';
-    }).join('\n') +
+    table(data, {
+        'align' : ['c', 'c', 'c']
+    }) +
 
     '\n'
 );

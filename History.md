@@ -1,5 +1,5 @@
 
-n.n.n / 2014-10-31
+0.1.2 / 2014-10-31
 ==================
 
  * Add automatic scraping mechanism

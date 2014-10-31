@@ -33,7 +33,7 @@
     "coverage/",
     "data/AFINN/",
     "node_modules/",
-    "script/"
+    "script/",
     "test.js",
     "component.json",
     "package.json"

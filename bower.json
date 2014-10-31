@@ -25,14 +25,14 @@
   "ignore": [
     ".*",
     "*.log",
-    "*.txt",
     "*.md",
+    "*.txt",
+    "build/",
+    "components/",
+    "coverage/",
+    "node_modules/",
+    "spec/",
     "component.json",
-    "package.json",
-    "coverage",
-    "components",
-    "build",
-    "node_modules",
-    "spec"
+    "package.json"
   ]
 }

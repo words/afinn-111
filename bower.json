@@ -31,6 +31,7 @@
     "components/",
     "coverage/",
     "node_modules/",
+    "script/"
     "test.js",
     "component.json",
     "package.json"

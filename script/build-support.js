@@ -10,7 +10,7 @@ var fs,
 
 fs = require('fs');
 table = require('markdown-table');
-words = require('./');
+words = require('../');
 
 /**
  * Set up data.

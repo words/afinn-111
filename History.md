@@ -1,5 +1,17 @@
 
-n.n.n / 2014-10-04
+n.n.n / 2014-10-31
+==================
+
+ * Add automatic scraping mechanism
+ * Add flat badges to `Readme.md`
+ * Add `.eslintrc`
+ * Move build scripts to `script/`
+ * Refactor to disallow space after object keys
+ * Move `spec/afinn-111.spec.js` to `test.js`
+ * Update `.gitignore`, `.npmignore`, bower ignore
+ * Update eslint, mocha, markdown-table
+
+0.1.1 / 2014-10-04
 ==================
 
  * Remove `npm update npm` from travis

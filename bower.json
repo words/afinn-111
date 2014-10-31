@@ -27,9 +27,11 @@
     "*.log",
     "*.md",
     "*.txt",
+    "*.zip",
     "build/",
     "components/",
     "coverage/",
+    "data/AFINN/",
     "node_modules/",
     "script/"
     "test.js",

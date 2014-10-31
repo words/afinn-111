@@ -1,10 +1,12 @@
 .*
 *.log
 *.txt
+*.zip
 build/
 bower_components/
 components/
 coverage/
+data/AFINN/
 node_modules/
 script/
 test.js

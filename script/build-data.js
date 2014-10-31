@@ -5,7 +5,7 @@ var fs, textToJSON, data;
 textToJSON = require('plain-text-data-to-json');
 fs = require('fs');
 
-data = textToJSON(fs.readFileSync('data/AFINN-111.txt', 'utf8'), {
+data = textToJSON(fs.readFileSync('data/AFINN/AFINN-111.txt', 'utf8'), {
     'delimiter': '\t'
 });
 

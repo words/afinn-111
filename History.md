@@ -1,4 +1,10 @@
 
+n.n.n / 2014-10-31
+==================
+
+ * Refactor test
+ * Fix missing comma in `bower.json`
+
 0.1.2 / 2014-10-31
 ==================
 

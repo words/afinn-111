@@ -1,4 +1,4 @@
-# afinn-111 [![Build Status](https://travis-ci.org/wooorm/afinn-111.svg?branch=master)](https://travis-ci.org/wooorm/afinn-111) [![Coverage Status](https://img.shields.io/coveralls/wooorm/afinn-111.svg)](https://coveralls.io/r/wooorm/afinn-111?branch=master)
+# afinn-111 [![Build Status](https://img.shields.io/travis/wooorm/afinn-111.svg?style=flat)](https://travis-ci.org/wooorm/afinn-111) [![Coverage Status](https://img.shields.io/coveralls/wooorm/afinn-111.svg?style=flat)](https://coveralls.io/r/wooorm/afinn-111?branch=master)
 
 Easy access to [AFINN-111](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010).
 

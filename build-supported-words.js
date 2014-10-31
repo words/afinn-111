@@ -46,7 +46,7 @@ fs.writeFileSync('Supported-words.md',
     '\n' +
 
     table(data, {
-        'align' : ['c', 'c', 'c']
+        'align': ['c', 'c', 'c']
     }) +
 
     '\n'

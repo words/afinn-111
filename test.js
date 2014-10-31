@@ -1,9 +1,18 @@
 'use strict';
 
-var afinn, assert;
+/**
+ * Dependencies.
+ */
+
+var afinn,
+    assert;
 
 afinn = require('./');
 assert = require('assert');
+
+/**
+ * Tests.
+ */
 
 describe('afinn-111()', function () {
     it('should be of type `object`', function () {
@@ -17,6 +26,7 @@ describe('...all values', function () {
 
         for (word in afinn) {
             assert(typeof afinn[word] === 'number');
+
             assert(Math.floor(afinn[word]) === afinn[word]);
         }
     });

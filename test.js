@@ -2,7 +2,7 @@
 
 var afinn, assert;
 
-afinn = require('..');
+afinn = require('./');
 assert = require('assert');
 
 describe('afinn-111()', function () {

@@ -32,4 +32,4 @@ Object.keys(data).forEach(function (key) {
  * Write.
  */
 
-fs.writeFileSync('data/afinn-111.json', JSON.stringify(data));
+fs.writeFileSync('data/afinn-111.json', JSON.stringify(data, null, 2));

@@ -1,4 +1,4 @@
-Supported Words:
+Support:
 =================
 
 |        Word        |  Polarity  | Valence |

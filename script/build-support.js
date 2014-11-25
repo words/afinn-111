@@ -40,8 +40,8 @@ data = data.concat(
  * Write support.
  */
 
-fs.writeFileSync('Supported-words.md',
-    'Supported Words:\n' +
+fs.writeFileSync('Support.md',
+    'Support:\n' +
     '=================\n' +
     '\n' +
 

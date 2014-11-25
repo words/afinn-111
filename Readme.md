@@ -41,7 +41,7 @@ afinn['cats']; // Infinity
 
 ## Supported words
 
-**afinn-111** supports all AFINN-111 words/phrases. For a complete list, check out [Supported-words.md](Supported-words.md).
+**afinn-111** supports all AFINN-111 words/phrases. For a complete list, check out [Support.md](Support.md).
 
 Note the AFINN entries are:
 

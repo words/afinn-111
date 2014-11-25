@@ -10,19 +10,17 @@ var fs,
 
 fs = require('fs');
 table = require('markdown-table');
-words = require('../');
+words = require('..');
 
 /**
- * Set up data.
+ * Data.
  */
 
 var data;
 
 data = [
     ['Word', 'Polarity', 'Valence']
-];
-
-data = data.concat(
+].concat(
     Object.keys(words).map(function (word) {
         var valence;
 
@@ -37,7 +35,7 @@ data = data.concat(
 );
 
 /**
- * Write support.
+ * Write.
  */
 
 fs.writeFileSync('Support.md',

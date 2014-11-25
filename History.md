@@ -1,4 +1,16 @@
 
+n.n.n / 2014-11-25
+==================
+
+ * Refactor `script/build-support.js`
+ * Add pretty-printed output to `data/afinn-96.json`
+ * Refactor `script/build-data.js`
+ * Add link to personal website to copyright in `Readme.md`
+ * Move `Supported-words.md` to `Support.md`
+ * Refactor npm script targets in `package.json`
+ * Fix incorrect executive rights on `test.js`
+ * Fix overly specific jscs version range in `package.json`
+
 0.1.3 / 2014-10-31
 ==================
 

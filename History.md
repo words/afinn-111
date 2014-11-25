@@ -1,5 +1,5 @@
 
-n.n.n / 2014-11-25
+0.1.4 / 2014-11-25
 ==================
 
  * Refactor `script/build-support.js`

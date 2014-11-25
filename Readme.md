@@ -65,4 +65,4 @@ The database (`data/AFINN-111.txt`), is licensed under ODbL;
 
 ### Everything else
 
-MIT © Titus Wormer
+MIT © [Titus Wormer](http://wooorm.com)

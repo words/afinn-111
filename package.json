@@ -29,20 +29,20 @@
     "plain-text-data-to-json": "^0.1.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports test.js",
-    "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec --check-leaks -u exports test.js",
-    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- test.js",
-    "lint-api": "node_modules/.bin/eslint index.js",
-    "lint-test": "node_modules/.bin/eslint test.js --env mocha",
-    "lint-script": "node_modules/.bin/eslint script/build-data.js script/build-support.js",
-    "lint-style": "node_modules/.bin/jscs index.js script/build-data.js script/build-support.js test.js --reporter=inline",
-    "lint": "npm run lint-api && npm run lint-test && npm run lint-style",
+    "test": "_mocha --check-leaks test.js",
+    "test-travis": "istanbul cover _mocha --report lcovonly -- --check-leaks test.js",
+    "coverage": "istanbul cover _mocha -- -- test.js",
+    "lint-api": "eslint index.js",
+    "lint-test": "eslint --env mocha test.js",
+    "lint-script": "eslint script/build-data.js script/build-support.js",
+    "lint-style": "jscs --reporter inline test.js index.js script/build-data.js script/build-support.js",
+    "lint": "npm run lint-api && npm run lint-test && npm run lint-script && npm run lint-style",
     "make": "npm run lint && npm run coverage",
-    "scrape-data": "curl --connect-timeout 15 --max-time 20 -L http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6010/zip/imm6010.zip -o data/afinn.zip || exit 0",
-    "unzip-data": "unzip -o -d data data/afinn.zip || exit 0",
-    "build-data": "node script/build-data.js",
-    "build-support": "node script/build-support.js",
-    "build": "npm run scrape-data && npm run unzip-data && npm run build-data && npm run build-support",
+    "scrape": "curl --connect-timeout 15 --max-time 20 -L http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6010/zip/imm6010.zip -o data/afinn.zip || exit 0",
+    "postscrape": "unzip -o -d data data/afinn.zip || exit 0",
+    "prebuild": "npm run scrape",
+    "build": "node script/build-data.js",
+    "postbuild": "node script/build-support.js",
     "prepublish": "npm run build"
   }
 }

@@ -1,5 +1,5 @@
 
-n.n.n / 2014-12-21
+0.1.5 / 2014-12-21
 ==================
 
   * Remove reference to non-existing file

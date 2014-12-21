@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/*
  * Dependencies.
  */
 
@@ -12,7 +12,7 @@ fs = require('fs');
 table = require('markdown-table');
 words = require('..');
 
-/**
+/*
  * Data.
  */
 
@@ -34,7 +34,7 @@ data = [
     })
 );
 
-/**
+/*
  * Write.
  */
 

@@ -4,8 +4,7 @@ Support:
 |        Word        |  Polarity  | Valence |
 | :----------------: | :--------: | :-----: |
 |       abandon      | :frowning: |    -2   |
-|       zealous      |   :smile:  |    +2   |
-|      abandons      | :frowning: |    -2   |
+|      abandoned     | :frowning: |    -2   |
 |      abducted      | :frowning: |    -2   |
 |      abduction     | :frowning: |    -2   |
 |     abductions     | :frowning: |    -2   |
@@ -217,16 +216,15 @@ Support:
 |       awaits       | :frowning: |    -1   |
 |        award       |   :smile:  |    +3   |
 |       awarded      |   :smile:  |    +3   |
-|      abandoned     | :frowning: |    -2   |
+|       awards       |   :smile:  |    +3   |
 |       awesome      |   :smile:  |    +4   |
 |        awful       | :frowning: |    -3   |
 |       awkward      | :frowning: |    -2   |
 |         axe        | :frowning: |    -1   |
 |        axed        | :frowning: |    -1   |
-|       backed       |   :smile:  |    +1   |
+|      abandons      | :frowning: |    -2   |
 |       backing      |   :smile:  |    +2   |
 |        backs       |   :smile:  |    +1   |
-|         bad        | :frowning: |    -3   |
 |       badass       | :frowning: |    -3   |
 |        badly       | :frowning: |    -3   |
 |       bailout      | :frowning: |    -2   |
@@ -338,10 +336,10 @@ Support:
 |      burdened      | :frowning: |    -2   |
 |      burdening     | :frowning: |    -2   |
 |       burdens      | :frowning: |    -2   |
-|        calm        |   :smile:  |    +2   |
-|       calmed       |   :smile:  |    +2   |
+|       backed       |   :smile:  |    +1   |
+|         bad        | :frowning: |    -3   |
+|      committed     |   :smile:  |    +1   |
 |       calming      |   :smile:  |    +2   |
-|        calms       |   :smile:  |    +2   |
 |     can't stand    | :frowning: |    -3   |
 |       cancel       | :frowning: |    -1   |
 |      cancelled     | :frowning: |    -1   |
@@ -390,7 +388,7 @@ Support:
 |       cheater      | :frowning: |    -3   |
 |      cheaters      | :frowning: |    -3   |
 |       cheats       | :frowning: |    -3   |
-|        cheer       |   :smile:  |    +2   |
+|       calmed       |   :smile:  |    +2   |
 |       cheered      |   :smile:  |    +2   |
 |      cheerful      |   :smile:  |    +2   |
 |      cheering      |   :smile:  |    +2   |
@@ -448,7 +446,7 @@ Support:
 |       commit       |   :smile:  |    +1   |
 |     commitment     |   :smile:  |    +2   |
 |       commits      |   :smile:  |    +1   |
-|      committed     |   :smile:  |    +1   |
+|        calms       |   :smile:  |    +2   |
 |     committing     |   :smile:  |    +1   |
 |    compassionate   |   :smile:  |    +2   |
 |      compelled     |   :smile:  |    +1   |
@@ -554,7 +552,8 @@ Support:
 |        cynic       | :frowning: |    -2   |
 |       cynical      | :frowning: |    -2   |
 |      cynicism      | :frowning: |    -2   |
-|       damage       | :frowning: |    -3   |
+|        calm        |   :smile:  |    +2   |
+|        cheer       |   :smile:  |    +2   |
 |       damages      | :frowning: |    -3   |
 |        damn        | :frowning: |    -4   |
 |       damned       | :frowning: |    -4   |
@@ -637,7 +636,7 @@ Support:
 |       desire       |   :smile:  |    +1   |
 |       desired      |   :smile:  |    +2   |
 |      desirous      |   :smile:  |    +2   |
-|       despair      | :frowning: |    -3   |
+|       damage       | :frowning: |    -3   |
 |     despairing     | :frowning: |    -3   |
 |      despairs      | :frowning: |    -3   |
 |      desperate     | :frowning: |    -3   |
@@ -807,8 +806,8 @@ Support:
 |        dupe        | :frowning: |    -2   |
 |        duped       | :frowning: |    -2   |
 |     dysfunction    | :frowning: |    -2   |
+|       despair      | :frowning: |    -3   |
 |        eager       |   :smile:  |    +2   |
-|       earnest      |   :smile:  |    +2   |
 |        ease        |   :smile:  |    +2   |
 |        easy        |   :smile:  |    +1   |
 |      ecstatic      |   :smile:  |    +4   |
@@ -932,9 +931,9 @@ Support:
 |      exuberant     |   :smile:  |    +4   |
 |      exultant      |   :smile:  |    +3   |
 |     exultantly     |   :smile:  |    +3   |
-|      fabulous      |   :smile:  |    +4   |
+|       earnest      |   :smile:  |    +2   |
 |         fad        | :frowning: |    -2   |
-|         fag        | :frowning: |    -3   |
+|      fraudster     | :frowning: |    -4   |
 |       faggot       | :frowning: |    -3   |
 |       faggots      | :frowning: |    -3   |
 |        fail        | :frowning: |    -2   |
@@ -1022,7 +1021,7 @@ Support:
 |       frantic      | :frowning: |    -1   |
 |        fraud       | :frowning: |    -4   |
 |       frauds       | :frowning: |    -4   |
-|      fraudster     | :frowning: |    -4   |
+|      fabulous      |   :smile:  |    +4   |
 |     fraudsters     | :frowning: |    -4   |
 |     fraudulence    | :frowning: |    -4   |
 |     fraudulent     | :frowning: |    -4   |
@@ -1066,9 +1065,9 @@ Support:
 |        funny       |   :smile:  |    +4   |
 |       furious      | :frowning: |    -3   |
 |       futile       |   :smile:  |    +2   |
-|         gag        | :frowning: |    -2   |
+|         fag        | :frowning: |    -3   |
 |       gagged       | :frowning: |    -2   |
-|        gain        |   :smile:  |    +2   |
+|        gloom       | :frowning: |    -1   |
 |       gained       |   :smile:  |    +2   |
 |       gaining      |   :smile:  |    +2   |
 |        gains       |   :smile:  |    +2   |
@@ -1085,7 +1084,7 @@ Support:
 |     glamourous     |   :smile:  |    +3   |
 |        glee        |   :smile:  |    +3   |
 |       gleeful      |   :smile:  |    +3   |
-|        gloom       | :frowning: |    -1   |
+|         gag        | :frowning: |    -2   |
 |       gloomy       | :frowning: |    -2   |
 |      glorious      |   :smile:  |    +2   |
 |        glory       |   :smile:  |    +2   |
@@ -1134,9 +1133,9 @@ Support:
 |     gullibility    | :frowning: |    -2   |
 |      gullible      | :frowning: |    -2   |
 |         gun        | :frowning: |    -1   |
-|         ha         |   :smile:  |    +2   |
+|        gain        |   :smile:  |    +2   |
+|         hid        | :frowning: |    -1   |
 |       hacked       | :frowning: |    -1   |
-|        haha        |   :smile:  |    +3   |
 |       hahaha       |   :smile:  |    +3   |
 |       hahahah      |   :smile:  |    +3   |
 |        hail        |   :smile:  |    +2   |
@@ -1152,7 +1151,7 @@ Support:
 |        harm        | :frowning: |    -2   |
 |       harmed       | :frowning: |    -2   |
 |       harmful      | :frowning: |    -2   |
-|       harming      | :frowning: |    -2   |
+|         ha         |   :smile:  |    +2   |
 |        harms       | :frowning: |    -2   |
 |       harried      | :frowning: |    -2   |
 |        harsh       | :frowning: |    -2   |
@@ -1186,7 +1185,7 @@ Support:
 |       heroic       |   :smile:  |    +3   |
 |      hesitant      | :frowning: |    -2   |
 |      hesitate      | :frowning: |    -2   |
-|         hid        | :frowning: |    -1   |
+|        haha        |   :smile:  |    +3   |
 |        hide        | :frowning: |    -1   |
 |        hides       | :frowning: |    -1   |
 |       hiding       | :frowning: |    -1   |
@@ -1237,6 +1236,7 @@ Support:
 |      hysteria      | :frowning: |    -3   |
 |     hysterical     | :frowning: |    -3   |
 |      hysterics     | :frowning: |    -3   |
+|       harming      | :frowning: |    -2   |
 |        idiot       | :frowning: |    -3   |
 |       idiotic      | :frowning: |    -3   |
 |      ignorance     | :frowning: |    -2   |
@@ -1375,7 +1375,6 @@ Support:
 |        itchy       | :frowning: |    -2   |
 |       jackass      | :frowning: |    -4   |
 |      jackasses     | :frowning: |    -4   |
-|       jailed       | :frowning: |    -2   |
 |       jaunty       |   :smile:  |    +2   |
 |       jealous      | :frowning: |    -2   |
 |      jeopardy      | :frowning: |    -2   |
@@ -1399,20 +1398,18 @@ Support:
 |       justice      |   :smile:  |    +2   |
 |     justifiably    |   :smile:  |    +2   |
 |      justified     |   :smile:  |    +2   |
-|        keen        |   :smile:  |    +1   |
+|       jailed       | :frowning: |    -2   |
 |        kill        | :frowning: |    -3   |
 |       killed       | :frowning: |    -3   |
-|       killing      | :frowning: |    -3   |
 |        kills       | :frowning: |    -3   |
 |        kind        |   :smile:  |    +2   |
 |       kinder       |   :smile:  |    +2   |
 |        kiss        |   :smile:  |    +2   |
 |        kudos       |   :smile:  |    +3   |
-|        lack        | :frowning: |    -2   |
-|    lackadaisical   | :frowning: |    -2   |
+|        keen        |   :smile:  |    +1   |
+|       killing      | :frowning: |    -3   |
+|       loathe       | :frowning: |    -3   |
 |         lag        | :frowning: |    -1   |
-|       lagged       | :frowning: |    -2   |
-|       lagging      | :frowning: |    -2   |
 |        lags        | :frowning: |    -2   |
 |        lame        | :frowning: |    -2   |
 |      landmark      |   :smile:  |    +2   |
@@ -1452,7 +1449,7 @@ Support:
 |        livid       | :frowning: |    -2   |
 |        lmao        |   :smile:  |    +4   |
 |        lmfao       |   :smile:  |    +4   |
-|       loathe       | :frowning: |    -3   |
+|       lagging      | :frowning: |    -2   |
 |       loathed      | :frowning: |    -3   |
 |       loathes      | :frowning: |    -3   |
 |      loathing      | :frowning: |    -3   |
@@ -1490,8 +1487,9 @@ Support:
 |        lurk        | :frowning: |    -1   |
 |       lurking      | :frowning: |    -1   |
 |        lurks       | :frowning: |    -1   |
-|         mad        | :frowning: |    -3   |
-|      maddening     | :frowning: |    -3   |
+|    lackadaisical   | :frowning: |    -2   |
+|       lagged       | :frowning: |    -2   |
+|        lack        | :frowning: |    -2   |
 |       made-up      | :frowning: |    -1   |
 |        madly       | :frowning: |    -3   |
 |       madness      | :frowning: |    -3   |
@@ -1516,7 +1514,7 @@ Support:
 |       menace       | :frowning: |    -2   |
 |       menaced      | :frowning: |    -2   |
 |        mercy       |   :smile:  |    +2   |
-|        merry       |   :smile:  |    +3   |
+|         mad        | :frowning: |    -3   |
 |        mess        | :frowning: |    -2   |
 |       messed       | :frowning: |    -2   |
 |     messing up     | :frowning: |    -2   |
@@ -1588,9 +1586,9 @@ Support:
 |      murderous     | :frowning: |    -3   |
 |       murders      | :frowning: |    -2   |
 |        myth        | :frowning: |    -1   |
-|        n00b        | :frowning: |    -2   |
+|      maddening     | :frowning: |    -3   |
+|        merry       |   :smile:  |    +3   |
 |        naive       | :frowning: |    -2   |
-|        nasty       | :frowning: |    -3   |
 |       natural      |   :smile:  |    +1   |
 |        naïve       | :frowning: |    -2   |
 |        needy       | :frowning: |    -2   |
@@ -1605,7 +1603,7 @@ Support:
 |      nervously     | :frowning: |    -2   |
 |        nice        |   :smile:  |    +3   |
 |        nifty       |   :smile:  |    +2   |
-|       niggas       | :frowning: |    -5   |
+|        nasty       | :frowning: |    -3   |
 |       nigger       | :frowning: |    -5   |
 |         no         | :frowning: |    -1   |
 |       no fun       | :frowning: |    -3   |
@@ -1620,7 +1618,8 @@ Support:
 |        novel       |   :smile:  |    +2   |
 |        numb        | :frowning: |    -1   |
 |        nuts        | :frowning: |    -3   |
-|     obliterate     | :frowning: |    -2   |
+|        n00b        | :frowning: |    -2   |
+|       niggas       | :frowning: |    -5   |
 |     obliterated    | :frowning: |    -2   |
 |      obnoxious     | :frowning: |    -3   |
 |       obscene      | :frowning: |    -2   |
@@ -1670,11 +1669,11 @@ Support:
 |   overstatements   | :frowning: |    -2   |
 |     overweight     | :frowning: |    -1   |
 |      oxymoron      | :frowning: |    -1   |
-|        pain        | :frowning: |    -2   |
+|     obliterate     | :frowning: |    -2   |
+|      punished      | :frowning: |    -2   |
 |       pained       | :frowning: |    -2   |
-|        panic       | :frowning: |    -3   |
 |      panicked      | :frowning: |    -3   |
-|       panics       | :frowning: |    -3   |
+|        pain        | :frowning: |    -2   |
 |      paradise      |   :smile:  |    +3   |
 |       paradox      | :frowning: |    -1   |
 |       pardon       |   :smile:  |    +2   |
@@ -1810,18 +1809,18 @@ Support:
 |      provoking     | :frowning: |    -1   |
 |    pseudoscience   | :frowning: |    -3   |
 |       punish       | :frowning: |    -2   |
-|      punished      | :frowning: |    -2   |
+|        panic       | :frowning: |    -3   |
 |      punishes      | :frowning: |    -2   |
 |      punitive      | :frowning: |    -2   |
 |        pushy       | :frowning: |    -1   |
 |       puzzled      | :frowning: |    -2   |
+|       panics       | :frowning: |    -3   |
 |       quaking      | :frowning: |    -2   |
-|    questionable    | :frowning: |    -2   |
 |     questioned     | :frowning: |    -1   |
 |     questioning    | :frowning: |    -1   |
-|       racism       | :frowning: |    -3   |
+|    questionable    | :frowning: |    -2   |
+|       resign       | :frowning: |    -1   |
 |       racist       | :frowning: |    -3   |
-|       racists      | :frowning: |    -3   |
 |        rage        | :frowning: |    -2   |
 |       rageful      | :frowning: |    -2   |
 |        rainy       | :frowning: |    -1   |
@@ -1882,9 +1881,9 @@ Support:
 |      repulsed      | :frowning: |    -2   |
 |       rescue       |   :smile:  |    +2   |
 |       rescued      |   :smile:  |    +2   |
-|       rescues      |   :smile:  |    +2   |
+|       racism       | :frowning: |    -3   |
 |      resentful     | :frowning: |    -2   |
-|       resign       | :frowning: |    -1   |
+|       racists      | :frowning: |    -3   |
 |      resigned      | :frowning: |    -1   |
 |      resigning     | :frowning: |    -1   |
 |       resigns      | :frowning: |    -1   |
@@ -1948,6 +1947,7 @@ Support:
 |       ruined       | :frowning: |    -2   |
 |       ruining      | :frowning: |    -2   |
 |        ruins       | :frowning: |    -2   |
+|       rescues      |   :smile:  |    +2   |
 |      sabotage      | :frowning: |    -2   |
 |         sad        | :frowning: |    -2   |
 |       sadden       | :frowning: |    -2   |
@@ -2212,9 +2212,8 @@ Support:
 |      swindling     | :frowning: |    -3   |
 |     sympathetic    |   :smile:  |    +2   |
 |      sympathy      |   :smile:  |    +2   |
+|        torn        | :frowning: |    -2   |
 |        tard        | :frowning: |    -2   |
-|        tears       | :frowning: |    -2   |
-|       tender       |   :smile:  |    +2   |
 |        tense       | :frowning: |    -2   |
 |       tension      | :frowning: |    -1   |
 |      terrible      | :frowning: |    -3   |
@@ -2250,7 +2249,7 @@ Support:
 |      toothless     | :frowning: |    -2   |
 |         top        |   :smile:  |    +2   |
 |        tops        |   :smile:  |    +2   |
-|        torn        | :frowning: |    -2   |
+|       tender       |   :smile:  |    +2   |
 |       torture      | :frowning: |    -4   |
 |      tortured      | :frowning: |    -4   |
 |      tortures      | :frowning: |    -4   |
@@ -2287,6 +2286,7 @@ Support:
 |       trusted      |   :smile:  |    +2   |
 |        tumor       | :frowning: |    -2   |
 |        twat        | :frowning: |    -5   |
+|        tears       | :frowning: |    -2   |
 |        ugly        | :frowning: |    -3   |
 |    unacceptable    | :frowning: |    -2   |
 |    unappreciated   | :frowning: |    -2   |
@@ -2354,9 +2354,8 @@ Support:
 |     usefulness     |   :smile:  |    +2   |
 |       useless      | :frowning: |    -2   |
 |     uselessness    | :frowning: |    -2   |
+|     vindicates     |   :smile:  |    +2   |
 |        vague       | :frowning: |    -2   |
-|      validate      |   :smile:  |    +1   |
-|      validated     |   :smile:  |    +1   |
 |      validates     |   :smile:  |    +1   |
 |     validating     |   :smile:  |    +1   |
 |       verdict      | :frowning: |    -1   |
@@ -2376,7 +2375,7 @@ Support:
 |        vile        | :frowning: |    -3   |
 |      vindicate     |   :smile:  |    +2   |
 |     vindicated     |   :smile:  |    +2   |
-|     vindicates     |   :smile:  |    +2   |
+|      validated     |   :smile:  |    +1   |
 |     vindicating    |   :smile:  |    +2   |
 |       violate      | :frowning: |    -2   |
 |      violated      | :frowning: |    -2   |
@@ -2397,6 +2396,7 @@ Support:
 |     vociferous     | :frowning: |    -1   |
 |    vulnerability   | :frowning: |    -2   |
 |     vulnerable     | :frowning: |    -2   |
+|      validate      |   :smile:  |    +1   |
 |       walkout      | :frowning: |    -2   |
 |      walkouts      | :frowning: |    -2   |
 |       wanker       | :frowning: |    -3   |
@@ -2479,4 +2479,4 @@ Support:
 |        yummy       |   :smile:  |    +3   |
 |       zealot       | :frowning: |    -2   |
 |       zealots      | :frowning: |    -2   |
-|       awards       |   :smile:  |    +3   |
+|       zealous      |   :smile:  |    +2   |

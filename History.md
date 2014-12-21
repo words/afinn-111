@@ -1,4 +1,16 @@
 
+n.n.n / 2014-12-21
+==================
+
+  * Remove reference to non-existing file
+  * Refactor to adhere to strict jsdoc style
+  * Add jscs-jsdoc configuration to `.jscs.json`
+  * Add jscs-jsdoc as a dev-dependency
+  * Fix incorrect executive rights on `script/`
+  * Refactor npm scripts for changes in npm
+  * Update markdown-table
+  * Update eslint
+
 0.1.4 / 2014-11-25
 ==================
 

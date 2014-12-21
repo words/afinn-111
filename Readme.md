@@ -56,7 +56,7 @@ Note the AFINN entries are:
 
 ### Data
 
-The database (`data/AFINN-111.txt`), is licensed under ODbL;
+The database is licensed under ODbL;
 
 > This database of words is copyright protected and distributed under
 > "Open Database License (ODbL) v1.0"

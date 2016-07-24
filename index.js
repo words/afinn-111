@@ -1,7 +1,12 @@
-'use strict';
-
-/*
- * Expose `afinn-111`.
+/**
+ * @author Titus Wormer
+ * @copyright 2014 Titus Wormer
+ * @license MIT
+ * @module afinn-111
+ * @fileoverview AFINN 111 (list of English words rated for valence) in JSON.
  */
 
-module.exports = require('./data/afinn-111.json');
+'use strict';
+
+/* Expose. */
+module.exports = require('./index.json');

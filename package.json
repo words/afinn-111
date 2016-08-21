@@ -34,7 +34,7 @@
     "join-stream": "0.0.0",
     "nyc": "^7.0.0",
     "readable-stream": "^2.1.4",
-    "remark-cli": "^1.0.0",
+    "remark-cli": "^2.0.0",
     "remark-comment-config": "^4.0.0",
     "remark-github": "^5.0.0",
     "remark-lint": "^4.0.0",

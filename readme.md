@@ -25,7 +25,7 @@ afinn['self-deluded']; // -2
 
 **afinn-111** returns entries to valence ratings (`Object.<string, number>`).
 
-> Note! Be careful when accessing unknown properties on the
+> Note!  Be careful when accessing unknown properties on the
 > **afinn-111** object, words such as “constructor” or “toString”
 > might occur.  It’s recommended to use a `hasOwnProperty` check
 > beforehand.

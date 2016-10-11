@@ -39,7 +39,7 @@
     "tape": "^4.0.0",
     "unzip": "^0.1.11",
     "wrap-stream": "^2.0.0",
-    "xo": "^0.16.0"
+    "xo": "^0.17.0"
   },
   "scripts": {
     "build-md": "remark . --quiet --frail",

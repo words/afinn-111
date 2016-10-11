@@ -28,7 +28,7 @@ http
   .get(url, function (res) {
     res
       .resume()
-      .pipe(unzip.Parse())
+      .pipe(new unzip.Parse())
       .on('error', bail)
       .on('entry', function (entry) {
         if (entry.path !== 'AFINN/AFINN-111.txt') {
@@ -40,7 +40,7 @@ http
           .pipe(csv({delimiter: '\t', objectMode: true}))
           .pipe(new Transform({
             objectMode: true,
-            transform: function transform(chunk, encoding, callback) {
+            transform: function (chunk, encoding, callback) {
               this.push('  "' + chunk[0] + '": ' + chunk[1]);
               callback();
             }

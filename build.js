@@ -1,14 +1,4 @@
-/**
- * @author Titus Wormer
- * @copyright 2014 Titus Wormer
- * @license MIT
- * @module afinn-111:script
- * @fileoverview Generate
- */
-
 'use strict';
-
-/* eslint-disable babel/new-cap */
 
 /* Dependencies. */
 var fs = require('fs');

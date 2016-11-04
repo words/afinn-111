@@ -15,15 +15,15 @@
     "text",
     "microblogs"
   ],
-  "files": [
-    "index.js",
-    "index.json"
-  ],
   "repository": "https://github.com/wooorm/afinn-111",
   "bugs": "https://github.com/wooorm/afinn-111/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
+  ],
+  "main": "index.json",
+  "files": [
+    "index.json"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -44,7 +44,7 @@
   "scripts": {
     "build-md": "remark . --quiet --frail",
     "build-generate": "node script/generate.js",
-    "build-bundle": "browserify index.js --bare -s afinn111 > afinn-111.js",
+    "build-bundle": "browserify index.json --bare -s afinn111 > afinn-111.js",
     "build-mangle": "esmangle afinn-111.js > afinn-111.min.js",
     "build": "npm run build-md && npm run build-bundle && npm run build-mangle",
     "lint": "xo",

@@ -1,4 +1,4 @@
-# afinn-111 [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
+# afinn-111 [![Build Status][travis-badge]][travis]
 
 Easy access to [afinn-111][afinn111].
 
@@ -66,10 +66,6 @@ Note the AFINN entries are:
 [travis-badge]: https://img.shields.io/travis/wooorm/afinn-111.svg
 
 [travis]: https://travis-ci.org/wooorm/afinn-111
-
-[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/afinn-111.svg
-
-[codecov]: https://codecov.io/github/wooorm/afinn-111
 
 [npm-install]: https://docs.npmjs.com/cli/install
 

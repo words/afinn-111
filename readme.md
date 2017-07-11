@@ -4,7 +4,7 @@ Easy access to [afinn-111][afinn111].
 
 ## Installation
 
-[npm][npm-install]:
+[npm][]:
 
 ```bash
 npm install afinn-111
@@ -15,8 +15,8 @@ npm install afinn-111
 ```js
 var afinn = require('afinn-111');
 
-afinn.positive; // 2
-afinn['self-deluded']; // -2
+afinn.positive; //=> 2
+afinn['self-deluded']; //=> -2
 ```
 
 ## API
@@ -48,14 +48,14 @@ Note the AFINN entries are:
 
 ## Related
 
-*   [afinn-96](https://github.com/wooorm/afinn-96)
-    — AFINN list from 2009, containing 1468 entries;
-*   [afinn-165](https://github.com/wooorm/afinn-165)
-    — AFINN list from 2015, containing 3382 entries;
-*   [emoji-emotion](https://github.com/wooorm/emoji-emotion)
-    — Like AFINN, but for emoji;
-*   [polarity](https://github.com/wooorm/polarity)
-    — Detect the polarity of text, based on `afinn-169` and `emoji-emotion`.
+*   [`afinn-96`](https://github.com/wooorm/afinn-96)
+    — AFINN list from 2009, containing 1468 entries
+*   [`afinn-165`](https://github.com/wooorm/afinn-165)
+    — AFINN list from 2015, containing 3382 entries
+*   [`emoji-emotion`](https://github.com/wooorm/emoji-emotion)
+    — Like AFINN, but for emoji
+*   [`polarity`](https://github.com/wooorm/polarity)
+    — Detect the polarity of text, based on `afinn-169` and `emoji-emotion`
 
 ## License
 
@@ -67,7 +67,7 @@ Note the AFINN entries are:
 
 [travis]: https://travis-ci.org/wooorm/afinn-111
 
-[npm-install]: https://docs.npmjs.com/cli/install
+[npm]: https://docs.npmjs.com/cli/install
 
 [license]: LICENSE
 

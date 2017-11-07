@@ -2,7 +2,7 @@ language: node_js
 sudo: false
 node_js:
 - '4.0'
-- '8.0'
+- '9.0'
 deploy:
   - provider: npm
     email: tituswormer@gmail.com
@@ -10,7 +10,7 @@ deploy:
       secure: E3f4A/+AX8aSbc5EimVVukiMoF6+X2XWFul01hS75eHKXkxTAAEE+RkTWNDAq+skaIz5Oj0Yexn2d1C4L2Mj2nUyweRz/FZEAlztfoJBACue+vM37chYsLptF8XrFZsGthyie2O4woOfUx41IXnSYgPqEvQUmBmGTde6fw0xlJ0=
     on:
       tags: true
-      node: '4.0'
+      node: '9.0'
   - provider: releases
     skip_cleanup: true
     api_key:
@@ -20,4 +20,4 @@ deploy:
       - "afinn-111.min.js"
     on:
       tags: true
-      node: '8.0'
+      node: '9.0'

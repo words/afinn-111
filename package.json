@@ -15,8 +15,8 @@
     "text",
     "microblogs"
   ],
-  "repository": "https://github.com/wooorm/afinn-111",
-  "bugs": "https://github.com/wooorm/afinn-111/issues",
+  "repository": "words/afinn-111",
+  "bugs": "https://github.com/words/afinn-111/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"

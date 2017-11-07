@@ -63,9 +63,9 @@ Note the AFINN entries are:
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/wooorm/afinn-111.svg
+[travis-badge]: https://img.shields.io/travis/words/afinn-111.svg
 
-[travis]: https://travis-ci.org/wooorm/afinn-111
+[travis]: https://travis-ci.org/words/afinn-111
 
 [npm]: https://docs.npmjs.com/cli/install
 

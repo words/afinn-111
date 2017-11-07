@@ -48,13 +48,13 @@ Note the AFINN entries are:
 
 ## Related
 
-*   [`afinn-96`](https://github.com/wooorm/afinn-96)
+*   [`afinn-96`](https://github.com/words/afinn-96)
     — AFINN list from 2009, containing 1468 entries
-*   [`afinn-165`](https://github.com/wooorm/afinn-165)
+*   [`afinn-165`](https://github.com/words/afinn-165)
     — AFINN list from 2015, containing 3382 entries
-*   [`emoji-emotion`](https://github.com/wooorm/emoji-emotion)
+*   [`emoji-emotion`](https://github.com/words/emoji-emotion)
     — Like AFINN, but for emoji
-*   [`polarity`](https://github.com/wooorm/polarity)
+*   [`polarity`](https://github.com/words/polarity)
     — Detect the polarity of text, based on `afinn-169` and `emoji-emotion`
 
 ## License

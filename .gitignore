@@ -4,3 +4,4 @@ data/
 node_modules/
 afinn-111.js
 afinn-111.min.js
+yarn.lock

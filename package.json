@@ -37,9 +37,9 @@
     "remark-preset-wooorm": "^5.0.0",
     "tape": "^4.0.0",
     "tinyify": "^2.5.0",
-    "unzip": "^0.1.11",
     "wrap-stream": "^2.0.0",
-    "xo": "^0.24.0"
+    "xo": "^0.24.0",
+    "yauzl": "^2.10.0"
   },
   "scripts": {
     "generate": "node build",

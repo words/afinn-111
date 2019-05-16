@@ -1,47 +1,74 @@
 'use strict'
 
 var fs = require('fs')
+var path = require('path')
 var https = require('https')
 var Transform = require('readable-stream').Transform
-var unzip = require('unzip')
+var yauzl = require('yauzl')
 var csv = require('csv-streamify')
 var wrap = require('wrap-stream')
 var join = require('join-stream')
 var bail = require('bail')
 
-https.get(
-  'https://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6010/zip/imm6010.zip',
-  onresponse
-)
+var endpoint =
+  'https://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6010/zip/imm6010.zip'
 
-function onresponse(res) {
+var found = false
+
+https.get(endpoint, onresult)
+
+function onresult(res) {
   res
-    .resume()
-    .pipe(new unzip.Parse())
+    .pipe(fs.createWriteStream('archive.zip'))
+    .on('close', onclose)
     .on('error', bail)
-    .on('entry', onentry)
 }
 
-function onentry(entry) {
-  if (entry.path !== 'AFINN/AFINN-111.txt') {
-    entry.autodrain()
-    return
+function onclose() {
+  yauzl.open('archive.zip', {lazyEntries: true}, onopen)
+}
+
+function onopen(err, archive) {
+  bail(err)
+
+  read()
+
+  archive.on('entry', onentry)
+  archive.on('end', onend)
+
+  function onentry(entry) {
+    if (path.basename(entry.fileName) !== 'AFINN-111.txt') {
+      return read()
+    }
+
+    found = true
+    archive.openReadStream(entry, onreadstream)
   }
 
-  entry
-    .pipe(csv({delimiter: '\t', objectMode: true}))
-    .pipe(
-      new Transform({
-        objectMode: true,
-        transform: transform
-      })
-    )
-    .pipe(join(',\n'))
-    .pipe(wrap('{\n', '\n}\n'))
-    .pipe(fs.createWriteStream('index.json'))
+  function onreadstream(err, rs) {
+    bail(err)
 
-  function transform(chunk, encoding, callback) {
-    this.push('  "' + chunk[0] + '": ' + chunk[1])
-    callback()
+    rs.pipe(csv({delimiter: '\t', objectMode: true}))
+      .pipe(new Transform({objectMode: true, transform: transform}))
+      .pipe(join(',\n'))
+      .pipe(wrap('{\n', '\n}\n'))
+      .pipe(fs.createWriteStream('index.json'))
+
+    rs.on('end', read)
   }
+
+  function read() {
+    archive.readEntry()
+  }
+}
+
+function onend() {
+  if (!found) {
+    throw new Error('File not found')
+  }
+}
+
+function transform(chunk, encoding, callback) {
+  this.push('  "' + chunk[0] + '": ' + chunk[1])
+  callback()
 }

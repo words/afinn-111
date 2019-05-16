@@ -71,6 +71,6 @@ Note the AFINN entries are:
 
 [license]: license
 
-[author]: http://wooorm.com
+[author]: https://wooorm.com
 
-[afinn111]: http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010
+[afinn111]: https://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010

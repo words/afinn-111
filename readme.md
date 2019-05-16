@@ -1,4 +1,8 @@
-# afinn-111 [![Build Status][travis-badge]][travis]
+# afinn-111
+
+[![Build][build-badge]][build]
+[![Downloads][downloads-badge]][downloads]
+[![Size][size-badge]][size]
 
 Easy access to [afinn-111][afinn111].
 
@@ -63,9 +67,17 @@ Note the AFINN entries are:
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/words/afinn-111.svg
+[build-badge]: https://img.shields.io/travis/words/afinn-111.svg
 
-[travis]: https://travis-ci.org/words/afinn-111
+[build]: https://travis-ci.org/words/afinn-111
+
+[downloads-badge]: https://img.shields.io/npm/dm/afinn-111.svg
+
+[downloads]: https://www.npmjs.com/package/afinn-111
+
+[size-badge]: https://img.shields.io/bundlephobia/minzip/afinn-111.svg
+
+[size]: https://bundlephobia.com/result?p=afinn-111
 
 [npm]: https://docs.npmjs.com/cli/install
 

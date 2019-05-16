@@ -1,7 +1,7 @@
 'use strict';
 
 var test = require('tape');
-var afinn = require('./');
+var afinn = require('.');
 
 test('afinn', function (t) {
   t.equal(afinn.positive, 2);

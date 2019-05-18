@@ -59,7 +59,7 @@ Note the AFINN entries are:
 *   [`emoji-emotion`](https://github.com/words/emoji-emotion)
     — Like AFINN, but for emoji
 *   [`polarity`](https://github.com/words/polarity)
-    — Detect the polarity of text, based on `afinn-169` and `emoji-emotion`
+    — Detect the polarity of text, based on `afinn-165` and `emoji-emotion`
 
 ## License
 

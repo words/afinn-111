@@ -17,10 +17,10 @@ npm install afinn-111
 ## Usage
 
 ```js
-var afinn = require('afinn-111');
+var afinn = require('afinn-111')
 
-afinn.positive; //=> 2
-afinn['self-deluded']; //=> -2
+afinn.positive //=> 2
+afinn['self-deluded'] //=> -2
 ```
 
 ## API
@@ -38,17 +38,17 @@ afinn['self-deluded']; //=> -2
 
 Note the AFINN entries are:
 
-*   All lower case;
-*   Can contain numbers (only case: `n00b`);
+*   All lower case
+*   Can contain numbers (only case: `n00b`)
 *   Can contain spaces (cases: `can't stand`, `cashing in`,
     `cool stuff`, `does not work`, `dont like`, `fed up`, `green wash`,
     `green washing`, `messing up`, `no fun`, `not good`, `not working`,
-    `right direction`, `screwed up`, `some kind`);
-*   Can contain apostrophes (only case: `can't stand`);
-*   Can contain diaeresis (only case: `naïve`);
+    `right direction`, `screwed up`, `some kind`)
+*   Can contain apostrophes (only case: `can't stand`)
+*   Can contain diaeresis (only case: `naïve`)
 *   Can contain dashes (cases: `cover-up`, `made-up`,
     `once-in-a-lifetime`, `self-confident`, `self-deluded`,
-    `short-sighted`, `short-sightedness`, `son-of-a-bitch`);
+    `short-sighted`, `short-sightedness`, `son-of-a-bitch`)
 
 ## Related
 

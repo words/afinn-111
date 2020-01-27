@@ -6,15 +6,15 @@
 
 Easy access to [afinn-111][afinn111].
 
-## Installation
+## Install
 
 [npm][]:
 
-```bash
+```sh
 npm install afinn-111
 ```
 
-## Usage
+## Use
 
 ```js
 var afinn = require('afinn-111')
@@ -27,12 +27,12 @@ afinn['self-deluded'] //=> -2
 
 ### `afinn111`
 
-**afinn-111** returns entries to valence ratings (`Object.<string, number>`).
+`afinn-111` returns entries to valence ratings (`Object.<string, number>`).
 
-> Note!  Be careful when accessing unknown properties on the
-> **afinn-111** object, words such as “constructor” or “toString”
-> might occur.  It’s recommended to use a `hasOwnProperty` check
-> beforehand.
+> Note!
+> Be careful when accessing unknown properties on the `afinn-111` object, words
+> such as “constructor” or “toString” might occur.
+> It’s recommended to use a `hasOwnProperty` check beforehand.
 
 ## Musings
 

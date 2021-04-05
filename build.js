@@ -17,8 +17,8 @@ var found = false
 
 https.get(endpoint, onresult)
 
-function onresult(res) {
-  res
+function onresult(response) {
+  response
     .pipe(fs.createWriteStream('archive.zip'))
     .on('close', onclose)
     .on('error', bail)
@@ -28,8 +28,8 @@ function onclose() {
   yauzl.open('archive.zip', {lazyEntries: true}, onopen)
 }
 
-function onopen(err, archive) {
-  bail(err)
+function onopen(error, archive) {
+  bail(error)
 
   read()
 
@@ -45,8 +45,8 @@ function onopen(err, archive) {
     archive.openReadStream(entry, onreadstream)
   }
 
-  function onreadstream(err, rs) {
-    bail(err)
+  function onreadstream(error, rs) {
+    bail(error)
 
     rs.pipe(csv({delimiter: '\t', objectMode: true}))
       .pipe(new Transform({objectMode: true, transform: transform}))

@@ -1,2 +1,3 @@
-afinn-111.js
-afinn-111.min.js
+.nyc_output/
+coverage/
+*.md

@@ -9,6 +9,9 @@ Easy access to [afinn-111][afinn111].
 
 ## Install
 
+This package is ESM only: Node 12+ is needed to use it and it must be `import`ed
+instead of `require`d.
+
 [npm][]:
 
 ```sh
@@ -18,17 +21,20 @@ npm install afinn-111
 ## Use
 
 ```js
-var afinn = require('afinn-111')
+import {afinn111} from 'afinn-111'
 
-afinn.positive //=> 2
-afinn['self-deluded'] //=> -2
+afinn111.positive //=> 2
+afinn111['self-deluded'] //=> -2
 ```
 
 ## API
 
+This package exports the following identifiers: `afinn111`.
+There is no default export.
+
 ### `afinn111`
 
-`afinn-111` returns entries to valence ratings (`Object.<string, number>`).
+`afinn-111` maps entries to valence ratings (`Object.<string, number>`).
 
 > Note!
 > Be careful when accessing unknown properties on the `afinn-111` object, words

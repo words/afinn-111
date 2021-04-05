@@ -1,12 +1,10 @@
-'use strict'
-
-var fs = require('fs')
-var path = require('path')
-var https = require('https')
-var yauzl = require('yauzl')
-var dsv = require('d3-dsv')
-var concat = require('concat-stream')
-var bail = require('bail')
+import fs from 'fs'
+import path from 'path'
+import https from 'https'
+import yauzl from 'yauzl'
+import dsv from 'd3-dsv'
+import concat from 'concat-stream'
+import {bail} from 'bail'
 
 var endpoint = 'https://www2.imm.dtu.dk/pubdb/edoc/imm6010.zip'
 
@@ -57,7 +55,11 @@ function onopen(error, archive) {
       data[rows[index].key] = Number.parseInt(rows[index].value, 10)
     }
 
-    fs.writeFile('index.json', JSON.stringify(data, null, 2) + '\n', bail)
+    fs.writeFile(
+      'index.js',
+      'export var afinn111 = ' + JSON.stringify(data, null, 2) + '\n',
+      bail
+    )
   }
 
   function read() {

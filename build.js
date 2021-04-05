@@ -12,6 +12,9 @@ var found = false
 
 https.get(endpoint, onresult)
 
+/**
+ * @param {import('http').IncomingMessage} response
+ */
 function onresult(response) {
   response
     .pipe(fs.createWriteStream('archive.zip'))
@@ -23,6 +26,10 @@ function onclose() {
   yauzl.open('archive.zip', {lazyEntries: true}, onopen)
 }
 
+/**
+ * @param {Error?} error
+ * @param {import('yauzl').ZipFile?} archive
+ */
 function onopen(error, archive) {
   bail(error)
 
@@ -31,6 +38,9 @@ function onopen(error, archive) {
   archive.on('entry', onentry)
   archive.on('end', onend)
 
+  /**
+   * @param {import('yauzl').Entry} entry
+   */
   function onentry(entry) {
     if (path.basename(entry.fileName) !== 'AFINN-111.txt') {
       return read()
@@ -40,15 +50,22 @@ function onopen(error, archive) {
     archive.openReadStream(entry, onreadstream)
   }
 
+  /**
+   * @param {Error?} error
+   * @param {import('stream').Readable?} rs
+   */
   function onreadstream(error, rs) {
     bail(error)
     rs.pipe(concat(onconcat))
     rs.on('end', read)
   }
 
-  function onconcat(x) {
+  /**
+   * @param {Buffer} buf
+   */
+  function onconcat(buf) {
     var data = {}
-    var rows = dsv.tsvParse('key\tvalue\n' + String(x))
+    var rows = dsv.tsvParse('key\tvalue\n' + String(buf))
     var index = -1
 
     while (++index < rows.length) {

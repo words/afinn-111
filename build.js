@@ -1,14 +1,14 @@
-import fs from 'fs'
-import path from 'path'
-import https from 'https'
+import fs from 'node:fs'
+import path from 'node:path'
+import https from 'node:https'
 import yauzl from 'yauzl'
-import dsv from 'd3-dsv'
+import {tsvParse} from 'd3-dsv'
 import concat from 'concat-stream'
 import {bail} from 'bail'
 
-var endpoint = 'https://www2.imm.dtu.dk/pubdb/edoc/imm6010.zip'
+const endpoint = 'https://www2.imm.dtu.dk/pubdb/edoc/imm6010.zip'
 
-var found = false
+let found = false
 
 https.get(endpoint, onresult)
 
@@ -64,9 +64,9 @@ function onopen(error, archive) {
    * @param {Buffer} buf
    */
   function onconcat(buf) {
-    var data = {}
-    var rows = dsv.tsvParse('key\tvalue\n' + String(buf))
-    var index = -1
+    const data = {}
+    const rows = tsvParse('key\tvalue\n' + String(buf))
+    let index = -1
 
     while (++index < rows.length) {
       data[rows[index].key] = Number.parseInt(rows[index].value, 10)
@@ -74,7 +74,9 @@ function onopen(error, archive) {
 
     fs.writeFile(
       'index.js',
-      'export var afinn111 = ' + JSON.stringify(data, null, 2) + '\n',
+      '/** @type {Record<string, number>} */\nexport const afinn111 = ' +
+        JSON.stringify(data, null, 2) +
+        '\n',
       bail
     )
   }

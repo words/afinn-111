@@ -1,4 +1,5 @@
-export var afinn111 = {
+/** @type {Record<string, number>} */
+export const afinn111 = {
   abandon: -2,
   abandoned: -2,
   abandons: -2,

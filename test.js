@@ -1,9 +1,8 @@
-import test from 'tape'
+import assert from 'node:assert/strict'
+import test from 'node:test'
 import {afinn111} from './index.js'
 
-test('afinn', function (t) {
-  t.equal(afinn111.positive, 2)
-  t.equal(afinn111['self-deluded'], -2)
-
-  t.end()
+test('afinn', function () {
+  assert.equal(afinn111.positive, 2)
+  assert.equal(afinn111['self-deluded'], -2)
 })

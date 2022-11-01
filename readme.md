@@ -29,8 +29,7 @@ This package gives you easy access to [afinn-111][afinn111].
 
 ## When should I use this?
 
-You’re probably dealing with natural language, and know you need this, if
-you’re here!
+You should likely use [`afinn-165`][afinn-165] instead.
 
 ## Install
 
@@ -162,3 +161,5 @@ This package is safe.
 [contribute]: https://opensource.guide/how-to-contribute/
 
 [afinn111]: https://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010
+
+[afinn-165]: https://github.com/words/afinn-165
